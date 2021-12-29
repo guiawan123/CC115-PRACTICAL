@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;600&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+body{
+	height: 100vh;
+	background: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+img{
+	width: 220px;
+	height: 250px;
+	position: relative;
+	top: -60px;
+	left: 70px;	
+	object-fit: cover;
+	border: solid yellow 10px;
+	border-radius: 20%;
+}
+.con{
+	min-height: 550px;
+	min-width: 1100px;
+	display: flex;
+}
+.card{
+	z-index: 2;
+}
+.file{
+	margin: 100px;
+}
+.info{
+	color: white;
+	padding-top: 15px;
+}
+.info h1{
+	font-size: 35px;
+	line-height: 50px;
+	display: flex;
+	justify-content: left;
+	position: relative;
+	left: 310px;
+	bottom: 240px;
+}
+.info p{
+	font-size: 23px;
+	line-height: 30px;
+	display: flex;
+	justify-content: left;
+	position: relative;
+	left: 310px;
+	bottom: 240px;
+}
+.social{
+	position: absolute;
+	top: 50px;
+	right: 300px;
+}
+.social ul li .fab{
+	font-size: 25px;
+	line-height: 47px;
+	color: black;
+}
+.social ul{
+	display: flex;
+	justify-content: center;
+}
+.social ul li{
+	list-style: none;
+	margin: 0 15px;
+}
+.social ul li a{
+	background-color: white;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	border-radius: 50%;
+	display: block;
+}
+.about{
+	background-image: url(img/12.jpg);
+	padding: 250px 50px;
+	margin-left: 150px;
+	border-radius: 20px;
+	width: 60%;
+	height: 95%;
+	margin-top: 20px;
+	position: absolute;
+}
+.contact{
+	justify-content: space-between;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	display: flex;
+}
+.num .fas{
+	padding-right: 5px;
+	font-size: 25px;
+	color: black;
+}
+.mail .fas{
+	padding-right: 5px;
+	font-size: 25px;
+	color: black;
+}
+.code{
+	padding-top: 10px;
+}
+.code ul{
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+}
+.code ul li .fab{
+	font-size: 70px;
+	line-height: 115px;
+	color: white;
+}
+.code ul li{
+	list-style: none;
+	padding: 0 20px;
+}
+.code ul li a{
+	background: #40095e;
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 30%;
+	text-align: center;
+}
+h2{
+	letter-spacing: 9px;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
