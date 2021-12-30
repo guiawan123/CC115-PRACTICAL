@@ -1,1 +1,123 @@
-/**Put your CSS files here**/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 150vh;
+    background: url(DS.jpg) no-repeat center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card{
+    width: 400px;
+    text-align: center;
+    border-radius: 0px;
+    overflow: hidden;
+}
+.card-header{
+background: #080808;
+padding: 40px 40px;
+}
+
+.pic{
+    display: inline-block;
+    padding: 8px;
+    margin: auto;
+    border-radius: 50%;
+}
+.pic img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.desc{
+font-size: 20px;
+color: #e66767;
+}
+
+.sm{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.sm a{
+    color: #f2f2f2;
+    width: 56px;
+    font-size: 22px;
+    transition: .3s;
+}
+
+.sm a:hover{
+    color: #e66767;
+}
+
+.contact-btn{
+    display: inline-block;
+    padding: 12px 50px;
+    color: #e66767;
+    border: 2px solid #e66767;
+    border-radius: 6px;
+    margin-top: 16px;
+    transition: .3s;
+}
+
+.contact-btn:hover{
+    background: #e66767;
+    color: #f2f2f2;
+}
+
+.card-footer{
+    background: #ffffff;
+    padding: 30px 10px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    flex: 1;
+    font-size: 13px;
+    color: #e66767;
+}
+
+.item span{
+    display: block;
+    color: black;
+    font-size: 30px;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.lang a{
+    color: #e66767;
+    width: 56px;
+    font-size: 35px;
+    transition: .3s;
+}
+
+.lang a:hover{
+    color: #05eecf;
+}
