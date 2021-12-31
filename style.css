@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background : linear-gradient(to right bottom , #8cc8fe , #5cb2fd);
+}
+#profile-card {
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    border-radius: 3px;
+    background: linear-gradient(to right bottom ,
+    rgba(255 , 255 , 255 , 0.6) ,
+    rgba(255 , 255 , 255 , 0.2));
+}
+.profile-image{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 5px;
+    position: relative;
+}
+.profile-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgba(255,255,255,0.4);
+}
+h3.profile-name {
+    text-align: center;
+    color: #25283a;
+    font-size: 27px;
+}
+p.title {
+    text-align: center;
+    color: #25283a;
+    font-size: 20px;
+    opacity: 0.6;
+    font-weight: 500;
+}
+.social {
+    margin: 20px 0px;
+    text-align: center;
+}
+.social a {
+    background: white;
+    color: #25283a;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0px 5px;
+    transition: 0.3s;
+    box-shadow: 2px 2px 5px rgb(28 115 214 / 20%);
+}
+.social a i{
+    font-size: 30px;
+}
+.facebook:hover {
+    color: white;
+    background: #3b5998;
+}
+.instagram:hover {
+    color: white;
+    background: linear-gradient(to top right , #feda77 ,#f58529 ,#dd217b ,#8134af ,#515bd4 );
+}
+.twitter:hover{
+    color: white;
+    background: #1DA1F2;
+}
+.github:hover {
+    color: white;
+    background: #101111;
+}
+.lang-icon {
+    text-align: center;
+}
+.lang-icon a {
+    text-decoration: none;
+    background: white;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 3px;
+    color: #25283a;
+    box-shadow: 2px 2px 5px rgb(28 115 214 / 20%);
+    transition: 0.3s;
+    margin:0px 20px;
+    font-size: 30px;
+}
+.lang-icon a i{
+    font-size: 40px;
+}
+a.language:hover {
+    background: #c4302b;
+    color: white;
+}
+.email {
+    display: flex;
+    justify-content: space-between;
+}
+.number , .e-mail {
+    text-align: center;
+    color: #25283a;
+    font-size: 13px;
+    cursor: pointer;
+}
+.email .number p, i{
+    font-size: 18px;
+}
+
+.email .e-mail p, i{
+    font-size: 18px;
+}
