@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2c6583;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.profile-card{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    color: #fff;
+    align-items: center;
+    background-image: linear-gradient(#4ca7d1, #003d59);
+    padding: 50px;
+    width: 790px;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.2);
+}
+.profile-card::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 24px;
+    background: #070c38;
+    left: 0;
+    bottom: 0;
+}
+.author-img{
+    flex: 2;
+}
+.author-img img{
+    width: 250px;
+    border-radius: 50% 30%;
+}
+.author-info{
+    flex: 2;
+    border-left: 4px solid #070c38;
+    padding-left: 30px;
+}
+.author-name{
+    margin-bottom: 30px;
+}
+.author-name h2{
+font-size: 30px;
+}
+h5{
+    font-weight: 300;
+    padding-top: 10px;
+}
+ul.contact li{
+    display: flex;
+    list-style: none;
+    margin-bottom: 10px
+}
+ul.contact li i{
+    background: #070c38;
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+   border-radius: 50% 30%;
+   margin-right: 10px;
+}
+ul.social li{
+    padding-top: 20px;
+    margin: 8px;
+   list-style: none;
+   display: inline-block;
+}
+ul.social li a i{
+    background: #070c38;
+    color: #fff;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
