@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+body{
+    background: linear-gradient(315deg, black 0%, white 74%);
+}
+img{
+    width: 250px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: solid paleturquoise 2px;
+}
+.info h1{
+    position: relative;
+    top: -250px;
+    left: 350px;
+    font-size: 80px;
+}
+.info p{
+    position: relative;
+    top: -250px;
+    left: 350px;
+    font-size: 50px;
+}
+.contact{
+    display: flex;
+    font-size:  20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0px 50px;
+    position: relative;
+    top: -229px;
+}
+.num .fas{
+    padding-right: 5px;
+    font-size: 20px;
+    color: black;
+}
+.num p{
+    padding-right:  50px;
+}
+.email .fas{
+    padding-right: 5px;
+    font-size: 20px;
+    color: black;
+}
+.media{
+    padding-top: 20px;
+    position: relative;
+    top: -670px;
+    left: 1000px;
+}
+.media ul{
+    display: flex;
+}
+.media ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.media ul li .fab{
+    font-size: 25px;
+    line-height: 47px;
+    transition: .6s;
+    color: #000;
+}
+.media ul li .fab:hover{
+    color: #fff;
+}
+.media ul li a{
+    background-color: #fff;
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.media ul li a:hover{
+    transform: translate(0, -10px);
+    color:  white;
+    background-color: black;
+}
+.skill{
+    padding-top: 60px;
+    position: relative;
+    top: -380px;
+}
+.skill h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+hr{
+    margin:0 100px;
+}
+.skill ul{
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+.skill ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+.skill ul li .fab{
+    font-size: 70px;
+    line-height: 115px;
+    color: white;
+}
+.skill ul li a{
+    background-color: darkred;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    text-align: center;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.7);
+}
