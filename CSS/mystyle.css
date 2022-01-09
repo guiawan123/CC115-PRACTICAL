@@ -1,1 +1,128 @@
-/**Put your CSS files here**/
+.icon1{
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+}
+.icon1 ul li a{
+	background-color: black ;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+}
+
+.icon1 ul li .fab{
+	font-size: 25px;
+	line-height: 45px;
+	color: #1DE9B6;
+}
+.icon1 ul li{
+	list-style: none;
+	margin: 7px 5px;
+	float: right;
+}
+
+.information{
+	color:#D0D3D4 ;
+	padding-top: 19px;	
+}
+.information h1{
+	font-size: 30px;
+	line-height: 50px;
+	display: flex;
+	justify-content: left;
+	position: relative;
+	left: 10px;
+	bottom: 17px;
+}
+.information p{
+	font-size: 15px;
+	line-height: 0px;
+	display: flex;
+	justify-content: left;
+	position: relative;
+	left: 10px;
+	bottom: 10px;
+}
+
+.phone{
+	justify-content: space-between;
+	font-size: 25px;
+	color: #D0D3D4 ;
+	display: flex;
+}
+
+.fas{
+ 	padding-right: 5px;
+	font-size: 25px;
+ 	color: #D0D3D4 ;
+}
+h2{
+	letter-spacing: 2px;
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+
+.box{
+	padding: 210px 50px;
+	width: 60%;
+	height: 95%;
+	margin-left: 300px;
+	margin-top: 0px;
+	position: absolute;
+	border-radius: 30px;
+	top:10%;
+}
+
+.web{
+	padding-top: 10px;
+	color: #D0D3D4 ;
+}
+.web ul{
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+.web ul li{
+	list-style: none;
+	padding: 10px 50px;
+
+}
+.fab{
+	font-size: 50px;
+	line-height: 90px;
+	color:#1DE9B6;
+}
+.web a{
+	background: black;
+	display: block;
+	width: 90px;
+	height: 90px;
+	border-radius: 35%;
+	text-align: center;
+}
+
+img{
+    width: 230px;
+    height: 230px;
+    border-radius:15%;
+    display: block;
+    object-fit: cover;
+    border: solid #D0D3D4 5px;
+	top: 70px;
+	left: 20px;
+	
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: linear-gradient(4500deg, #5F6A6A 35%, #17202A 30% );
+	height: 100vh;
+}
+
